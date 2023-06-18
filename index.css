@@ -38,7 +38,7 @@ nav {
 	justify-content: space-around;
 	border-bottom: 1px solid var(--borderColor);
 	align-items: center;
-	background-color: rgba(19, 19, 19, 0.849);
+	background-color: rgba(0, 0, 0, 0.692);
 }
 
 .navLogo {
@@ -163,4 +163,15 @@ nav {
 	#emblems {
 		display: none;
 	}
+
+	#banner {
+		display: none;
+	}
+}
+
+#banner {
+	position: absolute;
+	width: 200px;
+	right: 40px;
+	top: 130px;
 }
