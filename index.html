@@ -7,12 +7,26 @@
 	<link rel="stylesheet" href="index.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<title>Zinziberry Business Solutions</title>
 </head>
 <body>
+	<!-- contact blip -->
+	<div id="contactBlip">
+		<div id="mailShort">
+			<i class="fa fa-envelope"></i>
+			<p>zinziberry@gmail.com</p>
+		</div>
+		<div id="telShort">
+			<i class="fa fa-phone"></i>
+			<p>079 595 2725</p>
+		</div>
+	</div>
+
+	<!-- navbar -->
 	<nav>
 		<div id="nav-logo">
-			<a href="./index.html"><img src="#" alt="Zinziberry logo"></a>
+			<a href="./index.html"><img class="navLogo" src="./artwork/logo2.png" alt="Zinziberry logo"></a>
 		</div>
 		<i class="fa fa-bars" id="menuBtn"></i>
 		<ul id="nav-links">
@@ -24,8 +38,40 @@
 			<li class="navLink actionLink"><a href="./pages/freequote.html">Free Quote</a></li>
 		</ul>
 	</nav>
+
+	<!-- hero -->
+  <div id="hero">
+		<img id="banner" src="./artwork/bannerPRICE.png" alt="Price banner">
+		<img id="bgHero" src="./artwork/sites1.webp" alt="Background image">
+		<p id="heroPretext" data-aos="fade-right">27% of all people that are alive are digital buyers.</p>
+		<h1 id="heroTitle" data-aos="fade-left">It's about time you get your <br>business that website.</h1>
+		<!-- <p id="heroPosttext">Showcase your brand to a global audience, at all hours of the day or night!</p> -->
+
+		<div id="heroBtns">
+			<a href="./pages/freequote.html" data-aos="fade-up-right"><button class="actionBtn heroBtn">Free Quote</button></a>
+			<a href="./pages/aboutus.html" data-aos="fade-up-left"><button class="heroBtn" style="color: black;">About Us</button></a>
+		</div>
+
+		<ul id="emblems" data-aos="fade-up">
+			<li>Search Engine Optimized</li>
+			<li>Responsive Website Design</li>
+			<li>Built For Both Mobile & Desktop</li>
+			<li>Fully Customizeable Sites</li>
+		</div>
+	</div>
+
+	<!-- Why get a site? -->
+	<div id="why">
+
+	</div>
 	
 	<!-- custom script -->
 	<script src="./main.js"></script>
+
+	<!-- AOS scripts -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
